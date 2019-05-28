@@ -6,5 +6,8 @@ import { Component } from '@angular/core';
 })
 
 export class RegisterComponent{
+	ngOnDestroy() {
+        	console.log('do nothing');
+	}
 
 }
